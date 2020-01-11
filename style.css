@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  height: 100% auto !important;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -10,13 +9,21 @@ body {
   background-position: top center;
 }
 
+article, aside {
+	float: left;
+	height: 100%;
+}
+
+article	{
+	min-height:1024px;
+	width: 60%;
+}
+
+
 aside {
     display: block;
     width: calc(25% - 1.875rem);
-    float: right;
     margin-right: 50px;
-    position: fixed;
-    margin-left: 75%;
     font-size: 14px;
 }
 
@@ -38,7 +45,6 @@ img {
 }
 
 .page-header {
-  margin: 0 0 30px;
   padding: 16px 0 16px;
   background-color: #1d262d;
   color: #ffffff;
@@ -75,16 +81,14 @@ img {
 }
 
 .content-section{
-	float: left;
 	text-align: center;
 	margin-left: 7%;
-	margin-right: 15px;
-	width: 75%;
-	height: 100% auto !important;
+	
 
 }
 
 .sidebar {
+	position: fixed;
 	margin-bottom: 20px;
 	padding: 15px 15px 10px;
 	border: 1px solid #d8dce3;
@@ -148,4 +152,10 @@ img {
 	text-align: center;
 	background-repeat: no-repeat;
 	background-position: center top;
+}
+
+.main {
+	background-color: #fAf9fA;
+	margin: 0 10% 20px 10%;
+	float: left;
 }
