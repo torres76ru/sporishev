@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-width: 960px;
+  height: 100% auto !important;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -17,6 +17,7 @@ aside {
     margin-right: 50px;
     position: fixed;
     margin-left: 75%;
+    font-size: 14px;
 }
 
 footer {
@@ -24,12 +25,16 @@ footer {
   margin-bottom: 0;
 }
 
-
+img {
+	width: 100%;
+	height: auto;
+}
 
 .container {
   max-width: 65%;
   margin: 0 auto;
   padding: 0 16px;
+
 }
 
 .page-header {
@@ -72,8 +77,11 @@ footer {
 .content-section{
 	float: left;
 	text-align: center;
-	margin-left: 15px;
+	margin-left: 7%;
 	margin-right: 15px;
+	width: 75%;
+	height: 100% auto !important;
+
 }
 
 .sidebar {
@@ -135,7 +143,7 @@ footer {
 .contact-info p{
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
+	width: 20%;
 	margin: 0 5px;
 	text-align: center;
 	background-repeat: no-repeat;
