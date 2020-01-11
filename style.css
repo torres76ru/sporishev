@@ -19,6 +19,11 @@ aside {
     margin-left: 75%;
 }
 
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
 
 
 .container {
@@ -107,4 +112,32 @@ aside {
 	margin-bottom: 15px;
 	padding-left: 20px;
 	border-left: 10px solid #c4c4c4;
+}
+
+.page-footer {
+	padding: 20px 0;
+	background-color: #1d262d;
+	color: #ffffff;
+}
+
+.page-footer a {
+	margin-left: 56px;
+	color: inherit;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.contact-info {
+	margin-bottom:10px;
+}
+
+.contact-info p{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 0 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
