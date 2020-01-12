@@ -19,10 +19,10 @@ article	{
 	width: 60%;
 }
 
-
 aside {
     display: block;
     width: calc(25% - 1.875rem);
+    margin-top: 10px;
     margin-right: 50px;
     font-size: 14px;
 }
@@ -32,9 +32,14 @@ footer {
   margin-bottom: 0;
 }
 
+.name-site img{
+    width:40px;
+    height:auto;
+}
+
 img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .container {
@@ -83,25 +88,45 @@ img {
 .content-section{
 	text-align: center;
 	margin-left: 7%;
-	
+}
 
+ul{
+    list-style:none;
 }
 
 .sidebar {
-	position: fixed;
-	margin-bottom: 20px;
-	padding: 15px 15px 10px;
-	border: 1px solid #d8dce3;
+    position: fixed;
+    margin-bottom: 20px;
+    padding: 15px 15px 20px;
+    max-width: calc(22% - 1.875rem);
+    background: #1d262d;
+    border: 1px solid #000000;
+    color: #d8dce3;
 }
+
+aside a {
+    text-decoration-line: none;
+    color: #d8dce3;
+}
+.sidebar .leaf{
+    padding:3px 5px 3px 10px;
+    line-height:2;
+}
+.sidebar .leaf:hover {
+    background: #151b1f;
+    color: #f4f5f7;
+}
+
 .menu-name{
 	border-bottom: 1px solid #C0C0C0;
+    padding-bottom:10px;
+    margin-bottom:10px;
 }
 
 .menu {
 	list-style-type: none;
 	margin: 0px 0;
 	padding: 0px;
-
 }
 
 .leaf {
@@ -158,4 +183,10 @@ img {
 	background-color: #fAf9fA;
 	margin: 0 10% 20px 10%;
 	float: left;
+}
+h2{
+    text-align:center;
+}
+h3 {
+    margin-left:20px;
 }
